@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Sidebar from "./ui/Sidebar";
 import Header from "./ui/Header";
 import GlobalStyles from "./styles/GlobalStyles";
+import { BrowserRouter, Router, Routes } from "react-router-dom";
 
 const StyledApp = styled.div`
   display: grid;
